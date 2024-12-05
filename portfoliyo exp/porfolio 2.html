@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Product Landing Page</title>
     <link rel="stylesheet" href="portfolio 2.css">
+    <script src="script.js" defer></script>
 </head>
 
 <body>
@@ -23,51 +24,114 @@
     </header>
 
     <section id="hero">
-        <h1 id="typewriter"></h1>
+        <!-- <h1 id="typewriter">VELOXIFORGE</h1>
         <p>WEB DEVELOPER / VIDEO EDITOR</p>
         <!-- Innovative. Portable. Reliable. -->
-        <button>Shop Now</button>
+        <!-- <button>Shop Now</button> -->
+        <section id="hero">
+            <h1 id="hero-text">
+                <span id="typing-text"></span>
+            </h1>
+            <p>Your one-stop solution for all your needs.</p>
+            <button>Get Started</button>
+        </section>
+
     </section>
 
     <section id="features">
         <h2>Features</h2>
         <div class="feature-container">
             <div class="feature-item">
-                <img src="https://via.placeholder.com/150" alt="Feature 1">
-                <h3>High Quality</h3>
-                <p>Crafted with premium materials.</p>
+                <img src="e9c66c99-c4c1-4bfe-a156-5e9e5924bbfc.__CR0,0,300,300_PT0_SX300_V1___.jpg" alt="Feature 1">
+                <div class="testi">
+                    <h3>High Quality</h3>
+                    <p id="paragraph">This travel watercolor paint set provides a complete artistic package, featuring a
+                        watercolor palette, sketchbook, and metal clip. Create stunning watercolor paintings wherever
+                        inspiration strikes.</p>
+                </div>
             </div>
             <div class="feature-item">
-                <img src="https://via.placeholder.com/150" alt="Feature 2">
-                <h3>Portable</h3>
-                <p>Take it anywhere, anytime.</p>
+                <img src="8ca7cd44-5252-4516-a421-e1bf98260f77.__CR0,0,300,300_PT0_SX300_V1___.jpg" alt="Feature 2">
+                <div class="testi">
+                    <h3>Portable</h3>
+                    <p id="paragraph">8 color Paint Palette-At approximately 2.36 x2.36 inches in size, 15 color Paint
+                        Palette -At approximately 5.67 x2.83 inches in size, this mini watercolor paint set is designed
+                        to travel with you.</p>
+                </div>
             </div>
             <div class="feature-item">
-                <img src="https://via.placeholder.com/150" alt="Feature 3">
-                <h3>Affordable</h3>
-                <p>Great value at a great price.</p>
+                <img src="818d7d71-f634-45f8-a31c-c52c5a41d841.__CR0,0,300,300_PT0_SX300_V1___.jpg" alt="Feature 3">
+                <div class="testi">
+                    <h3>Affordable</h3>
+                    <p id="paragraph">Constructed with a wooden watercolor palette and quality paper sketchbook. Metal
+                        binder clips secure your work, and the well-crafted watercolor brush pens deliver precision with
+                        each stroke.</p>
+                </div>
             </div>
         </div>
     </section>
 
     <section id="about">
-        <h2>About Us</h2>
-        <p>[Product Name] was designed to simplify your life and enhance your daily tasks.</p>
+        <div class="about-frame1">
+            <img src="Screenshot 2024-11-13 045522.png" alt="">
+        </div>
+        <div class="about-content2">
+            <h2>About Us</h2>
+            <div class="about-frame2">
+                <p>
+                    <li>Paint Palette Travel Kit: This travel watercolor paint set provides a complete artistic package,
+                        featuring a watercolor palette, sketchbook, and metal clip. Create stunning watercolor paintings
+                        wherever inspiration strikes</li>
+                </p>
+                <p>
+                    <li>Compact and Portable: 8 color Paint Palette-At approximately 2.36 x2.36 inches in size, 15 color
+                        Paint Palette -At approximately 5.67 x2.83 inches in size, this mini watercolor paint set is
+                        designed to travel with you</li>
+                </p>
+                <p>
+                    <li>Creativity Mini Portable Painter Set: This travel paint palette helps unleash your creativity
+                        while
+                        creating serene moments, making it the companion for artistic expression</li>
+                </p>
+                <p>
+                    <li>Quality Materials: Constructed with a wooden watercolor palette and quality paper sketchbook.
+                        Metal
+                        binder clips secure your work, and the well-crafted watercolor brush pens deliver precision with
+                        each stroke</li>
+                </p>
+                <p>
+                    <li>Suitable for Various Occasions: This Mini Watercolor Palette watercolor set is suitable for
+                        various
+                        occasions, whether you're a professional artist or just starting out, this travel ready paint
+                        palette bundle is ideal for expressing your creativity and exploring different painting
+                        techniques
+                    </li>
+                </p>
+            </div>
+        </div>
     </section>
     <!-- Testimonials Section -->
     <section id="testimonials">
         <h2>What Our Clients Say</h2>
         <div class="testimonials-container">
             <div class="testimonial-item">
-                <p>"This service exceeded my expectations! Highly recommended."</p>
+                <p>I just bought this set for a friend who is traveling for 7 months. It has everything you need to
+                    create paintings- set of watercolors, brush, paper and wooden palette you clip together. Small yet
+                    perfect for someone who doesn’t have a lot of space.
+                </p>
                 <h4>- John Doe</h4>
             </div>
             <div class="testimonial-item">
-                <p>"Amazing quality and outstanding customer support. Five stars!"</p>
+                <p>I received my order 2 days early. The"kit" is just the wood pallet and a clip. N9 paint or paper was
+                    included.
+                </p>
                 <h4>- Jane Smith</h4>
             </div>
             <div class="testimonial-item">
-                <p>"I'm so happy with the results. Will definitely use this again."</p>
+                <p>It came in a small envelope with no written explanation, no invoice, and there weren't any paints in
+                    the small squares. All the photos show the paint aready in the little squares (albeit small) so if
+                    the paint wasn't going to come with it I would have also bought some.
+                    Just not explained well</p>
                 <h4>- Emily Johnson</h4>
             </div>
         </div>
@@ -87,7 +151,7 @@
     <footer>
         <p>&copy; 2024 Your Product. All rights reserved.</p>
     </footer>
-    <script>
+    <!-- <script>
         /* Scroll Event for Sticky Header */
         window.addEventListener('scroll', function () {
             const header = document.querySelector('header');
@@ -110,7 +174,7 @@
         // Run the typing effect initially and set an interval for repetition
         startTypingEffect();
         setInterval(startTypingEffect, 5000); // Adjust timing as needed
-    </script>
+    </script> -->
 </body>
 
 </html>

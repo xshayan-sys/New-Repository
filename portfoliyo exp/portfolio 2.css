@@ -10,13 +10,13 @@ body {
     font-family: 'Poppins', sans-serif;
     color: #333;
     line-height: 1.6;
-    background: #f4f7fc;
+    background: linear-gradient(135deg, #000000, #708fc3);
     overflow-x: hidden;
 }
 
 /* Header */
 header {
-    background: rgb(5 0 0 / 57%);
+    background:rgb(0 0 0 / 88%);
     color: #ecf0f1;
     padding: 1rem 2rem;
     display: flex;
@@ -30,7 +30,7 @@ header {
 }
 
 header.scrolled {
-    background: #00000079;
+    background: #00000038;
 }
 
 header .logo {
@@ -55,22 +55,22 @@ header nav ul li a {
 }
 
 header nav ul li a:hover {
-    color: #5c0000;
+    color: #757070;
     /* border-bottom: 2px solid #f39c12; */
 }
 
 /* Hero Section */
 #hero {
-    background: linear-gradient(135deg, #000000, #690505), url('https://via.placeholder.com/1920x1080') no-repeat center/cover;
-    color: rgb(255, 255, 255);
+    background: url(bg\ 1.jpg) no-repeat center/cover, url('https://via.placeholder.com/1920x1080') no-repeat center/cover;
+    color: rgb(0, 0, 0);
     text-align: center;
-    padding: 6rem 1rem;
+    padding: 1rem 1rem;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 83%, 0 100%);
     background-attachment: fixed;
 }
 
@@ -78,11 +78,11 @@ header nav ul li a:hover {
     font-size: 3.5rem;
     margin-bottom: 1rem;
     text-shadow: 2px 2px 12px rgba(0, 0, 0, 0.3);
-    background: linear-gradient(to right, #3e1212, #52282c, #ffffff);
+    background: linear-gradient(to right, #000000, #757070, #000000);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     overflow: hidden;
-    
+
 }
 
 #hero p {
@@ -103,9 +103,9 @@ header nav ul li a:hover {
 }
 
 #hero button:hover {
-    background: #ffffff;
+    background: #000000;
     transform: translateY(-5px);
-    color: #000000;
+    color: #ffffff;
 }
 
 /* Features Section */
@@ -122,15 +122,25 @@ header nav ul li a:hover {
 }
 
 .feature-container {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    display: flex;
+    justify-content: center;
     gap: 2rem;
+    flex-wrap: wrap;
+    /* Ensures wrapping on smaller screens */
+    margin: 0 auto;
+    max-width: 1200px;
+    /* Limits the container width */
+    padding: 0 1rem;
+    /* Adds padding for smaller screens */
 }
 
 .feature-item {
+    flex: 1 1 calc(33.333% - 2rem);
+    /* Ensures 3 items per row, responsive */
+    max-width: 450px;
+    /* Sets a max width for larger screens */
     background: white;
     color: #2c2f3f;
-    padding: 2rem;
     border-radius: 12px;
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s, box-shadow 0.3s;
@@ -139,33 +149,91 @@ header nav ul li a:hover {
 .feature-item:hover {
     transform: translateY(-10px);
     box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
-    background: linear-gradient(135deg, #000000, #690505);
+    background: linear-gradient(135deg, #000000, #708fc3);
     color: white;
 }
 
+#paragraph {
+    padding: 1rem 2rem 2rem;
+}
+
 .feature-item img {
-    width: 80px;
+    width: 100%;
     margin-bottom: 1rem;
+    border-radius: 12px 12px 0 0;
+    /* Adds rounded corners to the top */
+}
+
+/* Responsive Breakpoints */
+
+/* For tablets and small desktops */
+@media (max-width: 1024px) {
+    .feature-item {
+        flex: 1 1 calc(50% - 2rem);
+        /* 2 items per row */
+    }
+}
+
+/* For mobile screens */
+@media (max-width: 768px) {
+    .feature-item {
+        flex: 1 1 100%;
+        /* 1 item per row */
+    }
+
+    .feature-container {
+        padding: 0 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    #features h2 {
+        font-size: 1.8rem;
+        /* Adjusts heading size for smaller screens */
+    }
+
+    #paragraph {
+        padding: 1rem;
+        font-size: 0.9rem;
+        /* Adjusts paragraph size */
+    }
 }
 
 /* About Section */
+
 #about {
     padding: 4rem 1rem;
     background: linear-gradient(135deg, #000000, #000000b8);
     color: white;
-    text-align: center;
     position: relative;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    align-items: center;
+}
+
+.about-content2 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
 }
 
 #about h2 {
     color: #ffffff;
+    animation: fadeInUp 2s ease-in-out;
 }
 
 #about p {
     max-width: 600px;
     margin: auto;
     line-height: 1.8;
-    animation: fadeInUp 2s ease-in-out;
+}
+
+.about-frame2 {
+    align-items: center;
+    width: 450px;
+
 }
 
 #about::before {
@@ -391,7 +459,7 @@ footer {
     }
 }
 
-@keyframes typing {
+/* @keyframes typing {
     from {
         width: 0;
     }
@@ -404,18 +472,33 @@ footer {
 @keyframes blink {
     50% {
         border-color: transparent;
+    } */
+
+
+/* Typing Effect Styling */
+#typing-text {
+    display: inline-block;
+    font-size: 3.5rem;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid #ffffff;
+    animation: typing 6s steps(30, end), blink 0.75s step-end infinite;
+}
+
+/* Typing Animation */
+@keyframes typing {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 13ch;
+        /* Adjust to match the length of "VELOXIFORGE" */
     }
 }
 
-#typewriter {
-    font-family: monospace;
-    font-size: 2em;
-    display: inline-block;
-    overflow: hidden;
-    white-space: nowrap;
-    border-right: 3px solid;
-    width: 0;
-    /* Hide text initially */
-    animation: typing 3s steps(30, end), blink 0.6s step-end infinite;
-    color: white;
+@keyframes blink {
+    50% {
+        border-color: transparent;
+    }
 }
