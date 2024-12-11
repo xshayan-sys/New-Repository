@@ -6,92 +6,58 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Card</title>
     <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <link rel="stylesheet" href="card.css">
 </head>
-<style>
-    body {
-        font-family: Poppins;
-        background-color: rgba(128, 128, 128, 0.056);
-    }
-
-    .box {
-        width: 375px;
-        height: 63vh;
-        background-color: rgb(255, 255, 255);
-        border-radius: 4px;
-        margin: auto;
-        margin-top: 150px;
-        padding: 0px;
-        box-shadow: 1px 1px 10px 4px rgba(38, 41, 42, 0.396);
-        transition: all 1s ease-in-out;
-    }
-
-    .box:hover {
-        transform: scale(1.1);
-    }
-
-    .box img {
-        width: 375px;
-        height: 31vh;
-        border-top-left-radius: 4px;
-        border-top-right-radius: 4px;
-    }
-
-    h2 {
-        margin-left: 20px;
-        font-size: 20px;
-    }
-
-    .main>p {
-        margin-left: 20px;
-        margin-right: 20px;
-        font-size: 15px;
-        color: rgba(0, 0, 0, 0.734);
-    }
-
-    .para>p {
-        display: inline;
-        background-color: rgba(98, 186, 233, 0.167);
-        color: rgba(0, 0, 0, 0.626);
-        font-weight: bold;
-        border-radius: 50px;
-        margin-left: 2%;
-        margin-right: 2%;
-        padding-top: 1%;
-        padding-bottom: 1%;
-        padding-right: 3%;
-        padding-left: 3%;
-    }
-
-    .insta {
-        margin-right: 3%;
-        text-align: end;
-        margin-top: 0;
-        color: black;
-    }
-    a{
-        text-decoration:none;
-        color: rgba(128, 128, 128, 0.603);
-    }
-    
-</style>
 
 <body>
-    <div class="box">
-        <img src="main.jpg" alt="bg">
-        <div>
-            <h2>The Coldest Sunset</h2>
-            <div class="main">
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut blanditiis est architecto sint nesciunt
-                    dolorum itaque voluptas tempore!</p>
+    <div class="maindiv">
+        <div class="box">
+            <a href="https://www.pinterest.com/pin/155303887952818673/" target="_blank">
+                <img src="John Constable, Salisbury Cathedral from the Meadows Print, Vintage Reproduction Poster, Wall Art Print, Painting A3 A4 A5 Home Decor.jpg" alt="Clickable Image" class="clickable-image">
+            </a>
+
+            <div class="contant">
+                <h1>Salisbury Cathedral Beneath a Radiant Rainbow.</h1>
+                <p>Majestic cathedral rises under a dramatic sky, framed by a luminous rainbow and tranquil countryside,
+                    evoking timeless serenity</p>
+                <div class="tags">
+                    <a href="#">#LandscapeArt </a>
+                    <a href="#">#TimelessBeauty </a>
+                    <a href="#">#RomanticEra </a>
+                </div>
             </div>
         </div>
-        <div class="para" style="margin-top: 30px;">
-            <p>#photography</p>
-            <p>#travel</p>
-            <p>#winter</p>
+
+        <div class="box">
+            <a href="https://www.pinterest.com/pin/472033604700183084/" target="_blank">
+                <img src="How to Paint Trees (Detailed Guide).jpg" alt="Clickable Image" class="clickable-image">
+            </a>
+            <div class="contant">
+                <h1>Pastoral Tranquility: A Glimpse of Rural Charm</h1>
+                <p>Idyllic countryside scene with a rustic cottage, tranquil stream, and lush greenery, capturing
+                    nature's serene harmony under a vivid sky</p>
+                <div class="tags">
+                    <a href="#">#PastoralArt</a>
+                    <a href="#">#NaturalBeauty</a>
+                    <a href="#">#ClassicLandscapes</a>
+                </div>
+            </div>
         </div>
-        <div class="insta">
-            <a href="https://www.instagram.com/shxyx.77b/" target="_blank">shxyx.77b</a>
+
+        <div class="box">
+            <a href="https://www.pinterest.com/pin/50524827050333139/" target="_blank">
+                <img src="John Constable.jpg" alt="Clickable Image" class="clickable-image">
+            </a>
+            <div class="contant">
+                <h1>Rural Elegance: A Glimpse of Village Harmony</h1>
+                <p>Rustic village life unfolds under a dramatic sky, with tranquil water reflections and lush trees
+                    framing pastoral serenity.</p>
+                <div class="tags">
+                    <a href="#">#VillageCharm</a>
+                    <a href="#">#ConstableArt</a>
+                    <a href="#">#NatureScenes</a>
+                </div>
+            </div>
         </div>
     </div>
 </body>
