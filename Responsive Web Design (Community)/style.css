@@ -2,3 +2,820 @@
     margin: 0;
     padding: 0;
 }
+
+body {
+    font-family: poppins;
+    background: #F5F5F5;
+}
+
+.container {
+    margin: 0 77px 0 87px;
+}
+
+#add {
+    width: 67px;
+    height: 73px;
+}
+
+#profilepic {
+    height: 301px;
+    width: 301px;
+}
+
+#share {
+    height: 70px;
+    width: 67px;
+}
+
+.sec1-frame2 h1 {
+    margin-top: 32px;
+    font-weight: bolder;
+    text-align: center;
+    font-size: 40;
+
+}
+
+.sec1-frame2 {
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sec1-frame2 p {
+    margin-top: 34px;
+    text-align: center;
+    color: #0000008c;
+    font-size: 20;
+}
+
+.section1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.sociallinks {
+    margin-top: 34px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    gap: 42.19px;
+    align-items: center;
+}
+
+.section2 h1 {
+    font-size: 50px;
+    font-weight: 900;
+    text-align: center;
+    margin-top: 156px;
+}
+
+.box1 {
+    width: 455px;
+    height: 493px;
+    background: rgb(255, 255, 255);
+    border-top-left-radius: 37px;
+    border-top-right-radius: 37px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.box1 img {
+    width: 100%;
+    height: 349px;
+}
+
+.boxes {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    gap: 82px;
+    margin-top: 82px;
+}
+
+.box1 h4 {
+    text-align: center;
+    font-size: 20px;
+}
+
+.box1 p {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.box2 {
+    width: 100%;
+    height: auto;
+    background: #FFFFFF;
+    justify-content: space-between;
+    display: flex;
+    border-radius: 22px;
+}
+
+.sec3-content {
+    padding: 56px 71px 37px 22px;
+}
+
+.section3 {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    gap: 135px;
+    margin-top: 87px;
+}
+
+
+#sec3-boxes {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 29px;
+}
+
+#sec3-boxes h2 {
+    text-align: center;
+}
+
+.boxes2 {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 54px;
+}
+
+.box2 img {
+    width: 170px;
+}
+
+.box2 {
+    position: relative;
+}
+
+#youtube {
+    width: 90px;
+    height: 60.03px;
+    position: absolute;
+    top: 31%;
+    left: 8%;
+}
+
+#facebook {
+    width: 38.01px;
+    height: 80.85px;
+    position: absolute;
+    top: 26%;
+    left: 12%;
+}
+
+#brandlogo {
+    position: absolute;
+    bottom: 33%;
+    left: 44.5%;
+}
+
+#vector1 {
+    width: 35.63px;
+    height: 33.65px
+}
+
+#vector2 {
+    width: 33.19px;
+    height: 22.14px;
+}
+
+#vector3 {
+    width: 18.69px;
+    height: 35.61px;
+}
+
+#vector4 {
+    width: 36.32px;
+    height: 36.32px;
+}
+
+#vector5 {
+    width: 44.69px;
+    height: 36.32px;
+}
+
+#vector6 {
+    width: 32.32px;
+    height: 35.71px;
+}
+
+#vector7 {
+    width: 37.93px;
+    height: 23.5px;
+}
+
+.box1:hover {
+    transform: scale(1.1);
+    transition: transform 0.5s ease-in;
+}
+
+@media only screen and (min-width: 240px) and (max-width: 480px) {
+    .section1 {
+        margin-top: 69px;
+    }
+
+    #add {
+        width: 24px;
+        height: 24px;
+    }
+
+    #profilepic {
+        width: 161px;
+        height: 161px;
+    }
+
+    .sec1-frame2 h1 {
+        font-size: 24px;
+        font-weight: bold;
+        margin-top: 26px;
+    }
+
+    .sec1-frame2 p {
+        font-size: 15px;
+        font-weight: normal;
+        margin-top: 26px;
+    }
+
+    #vector1 {
+        width: 16.68px;
+        height: 15.75px;
+    }
+
+    #vector2 {
+        width: 15.54px;
+        height: 10.36px;
+    }
+
+    #vector3 {
+        width: 8.75px;
+        height: 16.67px;
+    }
+
+    #vector4 {
+        width: 17px;
+        height: 17px;
+    }
+
+    #vector5 {
+        width: 20.92px;
+        height: 17px;
+    }
+
+    #vector6 {
+        width: 15.13px;
+        height: 16.72px;
+    }
+
+    #vector7 {
+        width: 17.76px;
+        height: 11px;
+    }
+
+    .sociallinks {
+        gap: 16px;
+    }
+
+    .section2 h1 {
+        margin-top: 42px;
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    #box2 {
+        display: none;
+    }
+
+    .box1 {
+        width: 227px;
+        height: 246px;
+    }
+
+    .box1 img {
+        width: 100%;
+        height: auto;
+    }
+
+    .boxes {
+        gap: 17px;
+        margin-top: 7px;
+    }
+
+    .container {
+        margin: 0 32px;
+    }
+
+    .section3 {
+        flex-direction: column;
+        gap: 76px;
+        margin-bottom: 142px;
+    }
+
+    .box2 {
+        width: 338px;
+        height: 113px;
+    }
+
+    .box2 img {
+        width: 108px;
+        height: 113px;
+    }
+
+    .sec3-content {
+        padding: 27px 40px 26px 12px;
+    }
+
+    .sec3-content h4 {
+        font-size: 13px;
+        font-weight: bold;
+    }
+
+    .sec3-content p {
+        font-size: 11px;
+        font-weight: normal;
+    }
+
+    .boxes2 {
+        align-items: center;
+    }
+
+    #youtube {
+        width: 50.1px;
+        height: 33.41px;
+        top: 35%;
+        left: 9%;
+    }
+
+    #facebook {
+        width: 21.16px;
+        height: 45px;
+        top: 33%;
+        left: 13%;
+    }
+
+    #brandlogo {
+        width: 50px;
+        height: 50px;
+        bottom: -7%;
+        left: 45%;
+    }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 960px) {
+    .section1 {
+        margin-top: 69px;
+    }
+
+    #add {
+        width: 30px;
+        height: 30px;
+    }
+
+    #profilepic {
+        width: 161px;
+        height: 161px;
+    }
+
+    .sec1-frame2 h1 {
+        font-size: 24px;
+        font-weight: bold;
+        margin-top: 26px;
+    }
+
+    .sec1-frame2 p {
+        font-size: 15px;
+        font-weight: normal;
+        margin-top: 26px;
+    }
+
+    #vector1 {
+        width: 16.68px;
+        height: 15.75px;
+    }
+
+    #vector2 {
+        width: 15.54px;
+        height: 10.36px;
+    }
+
+    #vector3 {
+        width: 8.75px;
+        height: 16.67px;
+    }
+
+    #vector4 {
+        width: 17px;
+        height: 17px;
+    }
+
+    #vector5 {
+        width: 20.92px;
+        height: 17px;
+    }
+
+    #vector6 {
+        width: 15.13px;
+        height: 16.72px;
+    }
+
+    #vector7 {
+        width: 17.76px;
+        height: 11px;
+    }
+
+    .sociallinks {
+        gap: 16px;
+    }
+
+    .section2 h1 {
+        margin-top: 42px;
+        font-size: 27px;
+        font-weight: bold;
+    }
+
+    .box1 {
+        width: 274px;
+        height: 300px;
+    }
+
+    .box1 img {
+        width: 100%;
+        height: auto;
+    }
+
+    .boxes {
+        gap: 17px;
+        margin-top: 7px;
+        justify-content: space-evenly;
+    }
+
+    .container {
+        margin: 0 32px;
+    }
+
+    .section3 {
+        justify-content: space-evenly;
+        gap: 76px;
+        margin-bottom: 142px;
+        flex-wrap: wrap;
+    }
+
+    .box2 {
+        width: 338px;
+        height: 113px;
+    }
+
+    .box2 img {
+        width: 108px;
+        height: 113px;
+    }
+
+    .sec3-content {
+        padding: 27px 40px 26px 12px;
+    }
+
+    .sec3-content h4 {
+        font-size: 13px;
+        font-weight: bold;
+    }
+
+    .sec3-content p {
+        font-size: 11px;
+        font-weight: normal;
+    }
+
+    .boxes2 {
+        align-items: center;
+    }
+
+    #youtube {
+        width: 50.1px;
+        height: 33.41px;
+        top: 35%;
+        left: 9%;
+    }
+
+    #facebook {
+        width: 21.16px;
+        height: 45px;
+        top: 33%;
+        left: 13%;
+    }
+
+    #brandlogo {
+        width: 80px;
+        height: 83px;
+        bottom: -10%;
+        left: 45%;
+    }
+
+}
+
+@media only screen and (min-width: 960px) {
+    .section1 {
+        margin-top: 69px;
+    }
+
+    #add {
+        width: 30px;
+        height: 30px;
+    }
+
+    #profilepic {
+        width: 161px;
+        height: 161px;
+    }
+
+    .sec1-frame2 h1 {
+        font-size: 24px;
+        font-weight: bold;
+        margin-top: 26px;
+    }
+
+    .sec1-frame2 p {
+        font-size: 15px;
+        font-weight: normal;
+        margin-top: 26px;
+    }
+
+    #vector1 {
+        width: 16.68px;
+        height: 15.75px;
+    }
+
+    #vector2 {
+        width: 15.54px;
+        height: 10.36px;
+    }
+
+    #vector3 {
+        width: 8.75px;
+        height: 16.67px;
+    }
+
+    #vector4 {
+        width: 17px;
+        height: 17px;
+    }
+
+    #vector5 {
+        width: 20.92px;
+        height: 17px;
+    }
+
+    #vector6 {
+        width: 15.13px;
+        height: 16.72px;
+    }
+
+    #vector7 {
+        width: 17.76px;
+        height: 11px;
+    }
+
+    .sociallinks {
+        gap: 16px;
+    }
+
+    .section2 h1 {
+        margin-top: 42px;
+        font-size: 27px;
+        font-weight: bold;
+    }
+
+    .box1 {
+        width: 274px;
+        height: 300px;
+    }
+
+    .box1 img {
+        width: 100%;
+        height: auto;
+    }
+
+    .boxes {
+        gap: 17px;
+        margin-top: 7px;
+        justify-content: space-evenly;
+    }
+
+    .container {
+        margin: 0 32px;
+    }
+
+    .section3 {
+        justify-content: space-evenly;
+        gap: 76px;
+        margin-bottom: 142px;
+        flex-wrap: wrap;
+    }
+
+    .box2 {
+        width: 338px;
+        height: 113px;
+    }
+
+    .box2 img {
+        width: 108px;
+        height: 113px;
+    }
+
+    .sec3-content {
+        padding: 27px 40px 26px 12px;
+    }
+
+    .sec3-content h4 {
+        font-size: 13px;
+        font-weight: bold;
+    }
+
+    .sec3-content p {
+        font-size: 11px;
+        font-weight: normal;
+    }
+
+    .boxes2 {
+        align-items: center;
+    }
+
+    #youtube {
+        width: 50.1px;
+        height: 33.41px;
+        top: 35%;
+        left: 9%;
+    }
+
+    #facebook {
+        width: 21.16px;
+        height: 45px;
+        top: 33%;
+        left: 13%;
+    }
+
+    #brandlogo {
+        width: 80px;
+        height: 83px;
+        bottom: 29%;
+        left: 46%;
+    }
+}
+@media only screen and (min-width: 1440px){
+    .section1 {
+        margin-top: 69px;
+    }
+
+    #add {
+        width: 60px;
+        height: 67px;
+    }
+
+    #profilepic {
+        width: 300px;
+        height: 300px;
+    }
+
+    .sec1-frame2 h1 {
+        font-size: 34px;
+        font-weight: bold;
+        margin-top: 26px;
+    }
+
+    .sec1-frame2 p {
+        font-size: 19px;
+        font-weight: normal;
+        margin-top: 20px;
+    }
+
+    #vector1 {
+        width: 35.63px;
+        height: 33.65px
+    }
+    
+    #vector2 {
+        width: 33.19px;
+        height: 22.14px;
+    }
+    
+    #vector3 {
+        width: 18.69px;
+        height: 35.61px;
+    }
+    
+    #vector4 {
+        width: 36.32px;
+        height: 36.32px;
+    }
+    
+    #vector5 {
+        width: 44.69px;
+        height: 36.32px;
+    }
+    
+    #vector6 {
+        width: 32.32px;
+        height: 35.71px;
+    }
+    
+    #vector7 {
+        width: 37.93px;
+        height: 23.5px;
+    }
+    
+    #sec3-boxes h2{
+        font-size: 40px;
+    }
+    .sociallinks {
+        gap: 55px;
+    }
+
+    .section2 h1 {
+        margin-top: 42px;
+        font-size: 47px;
+        font-weight: bold;
+        margin-bottom: 61px;
+    }
+
+    .box1 {
+        width: 594px;
+        height: 608px;
+    }
+
+    .box1 img {
+        width: 100%;
+        height: auto;
+    }
+
+    .boxes {
+        gap: 17px;
+        margin-top: 7px;
+        justify-content: space-evenly;
+    }
+
+    .container {
+        margin: 0 100px;
+    }
+
+    .section3 {
+        justify-content: space-evenly;
+        gap: 76px;
+        margin-bottom: 142px;
+        flex-wrap: wrap;
+    }
+
+    .box2 {
+        width: 847px;
+        height: 213px;
+        justify-content: flex-start;
+    }
+
+    .box2 img {
+        width: 240px;
+        height: 100%;
+    }
+
+    .sec3-content {
+        padding: 27px 40px 26px 12px;
+    }
+
+    .sec3-content h4 {
+        font-size: 26px;
+        font-weight: bold;
+    }
+
+    .sec3-content p {
+        font-size: 20px;
+        font-weight: normal;
+    }
+
+    .boxes2 {
+        align-items: center;
+    }
+
+    #youtube {
+        width: 94.1px;
+        height: 57.41px;
+        top: 38%;
+        left: 7%;
+    }
+
+    #facebook {
+        width: 44.16px;
+        height: 100px;
+        top: 26%;
+        left: 10%;
+    }
+
+    #brandlogo {
+        width: 139px;
+        height: 123px;
+        bottom: 29%;
+        left: 47%;
+    }
+    .box1 p{
+        font-size: 22px;
+    }
+}

@@ -1,0 +1,505 @@
+html,
+body {
+    width: 100%;
+
+}
+
+body {
+    color: #f1f1f1;
+    background: #111010;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+}
+
+.navbar {
+    width: 100%;
+    /* height: 59px; */
+    /* height: 88px; */
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 48px;
+    align-items: center;
+}
+
+.navbar-logo {
+    width: 100%;
+    height: auto;
+}
+
+.navbar-logo img {
+    .navbar img {
+        width: 148px;
+        height: 48px;
+    }
+
+    @ -42, 7+37, 7 @@ body {
+        display: flex;
+    }
+
+    .navbar-button button {
+        .navbar button {
+            background: #000;
+            border-radius: calc(100px - 0.0625rem);
+            border-width: 0.0625rem;
+
+            @ -63, 7+58, 11 @@ body {
+                .sec1-box {
+                    width: 100%;
+                    height: 536px;
+
+                    display: flex;
+                    justify-content: flex-end;
+                    gap: 16px;
+                    align-items: center;
+                    flex-direction: column;
+                    background-image: url(bg.jpg);
+                    background-size: cover;
+                    background-position: center;
+
+                    @ -72, 54+71, 9 @@ body {
+                        border-bottom-left-radius: 6%;
+                        border-bottom-right-radius: 6%;
+                        border: 2px solid #f1f1f1;
+                        padding: 0 80px 72px 80px;
+                        align-content: end;
+                    }
+
+                    .sec1-box::before {
+                        content: "";
+                        position: absolute;
+                        top: 2px;
+                        left: 3.5%;
+                        width: 92.9%;
+                        height: 97%;
+                        background: rgba(0, 0, 0, 0.7);
+                        z-index: 1;
+                        border-radius: 17px;
+                    }
+
+                    .sec-1-box1-curve2 {
+                        position: relative;
+                        z-index: 2;
+                    }
+
+                    .sec-1-box1-curve1 {
+                        position: relative;
+                        z-index: 2;
+                    }
+
+                    .sec-1-box1-curve1::after {
+                        content: '';
+                        position: absolute;
+                        bottom: -80px;
+                        width: 97.5%;
+                        height: 54px;
+                        background: #111010;
+                        left: -9%;
+                        border-top-left-radius: 100%;
+                        border-top-right-radius: 50%;
+                    }
+
+                    .sec-1-box1-curve2::after {
+                        content: '';
+                        position: absolute;
+                        bottom: -80px;
+                        width: 97.5%;
+                        height: 54px;
+                        background: #111010;
+                        left: 12%;
+                        border-top-left-radius: 50%;
+                        border-top-right-radius: 100%;
+                        background-blend-mode: overlay;
+                        background-color: rgba(0, 0, 0, 0.7);
+                        padding-bottom: 72px;
+                    }
+
+                    .section-1 {
+                        @ -130, 16+84, 18 @@ body {
+
+                            .sec1-box h1 {
+                                text-align: center;
+                                font-size: 307%;
+                                line-height: 125%;
+                                font-size: 56px;
+                                font-weight: 900;
+                                line-height: 70px;
+                                color: rgb(255, 255, 255);
+                                max-width: 36.625rem;
+                                margin: auto;
+                                /* max-width: 36.625rem; */
+                                width: 600px;
+                            }
+
+                            .sec1-box h3 {
+                                text-align: center;
+                                font-size: 1.125rem;
+                                font-size: 20px;
+                                font-weight: 400;
+                            }
+
+                            .section-2 {
+                                @ -148, 6+104, 14 @@ body {
+                                    flex-direction: column;
+                                    gap: 16px;
+                                    align-items: center;
+                                    margin-top: 30px;
+                                }
+
+                                .section-2 #section-2-p {
+                                    font-size: 16px;
+                                    font-weight: 400;
+                                    line-height: 24px;
+                                    color: rgb(255, 255, 255);
+                                }
+
+                                .section-2-contectSection form {
+                                    @ -201, 6+165, 8 @@ input:focus {
+                                        Color: rgb(255, 255, 255);
+                                        Cursor: pointer;
+                                        display: flex;
+                                        justify-content: space-between;
+                                        gap: 12px;
+                                        font-size: 24px;
+                                        height: 56px;
+                                        Padding: 12px 32px;
+
+                                        @ -208, 6+174, 11 @@ input:focus {
+                                            text-align: center;
+                                            user-select: none;
+                                            Width: 201.625px;
+                                            align-items: center;
+                                        }
+
+                                        .section-2-Button {
+                                            position: relative;
+                                        }
+
+                                        #section-2-Button:hover {
+                                            @ -220, 7+191, 8 @@ input:focus {}
+
+                                            .container {
+                                                padding: 0 148px;
+                                                max-width: 1104px;
+                                                margin: auto;
+                                            }
+
+                                            .sec3-frame1 {
+                                                @ -232, 11+204, 16 @@ input:focus {
+                                                    .section-3 {
+                                                        display: flex;
+                                                        justify-content: space-between;
+                                                        gap: 20px;
+                                                        gap: 8px;
+                                                        flex-direction: column;
+                                                        margin-bottom: 40px;
+                                                        width: 1104px;
+                                                    }
+
+                                                    /* .sction-3-container {
+    padding: 0 148px;
+} */
+
+                                                    .section-3-frame1-inputselectionbox {
+                                                        display: flex;
+                                                        justify-content: space-between;
+
+                                                        @ -245, 7+222, 7 @@ input:focus {}
+
+                                                        .section-3-frame1-inputselectionbox>.inputselect>form>select {
+                                                            width: 143px;
+                                                            width: 138px;
+                                                            height: 40px;
+                                                            /* appearance: none; */
+                                                            line-height: 1.5;
+
+                                                            @ -261, 20+238, 24 @@ input:focus {}
+
+                                                            .inputselect img {
+                                                                width: 1.5rem;
+                                                                height: 1.5rem;
+                                                                width: 28px;
+                                                                height: 27px;
+                                                            }
+
+                                                            #globe1 {
+                                                                position: absolute;
+                                                                top: 20%;
+                                                                left: 4%;
+                                                                pointer-events: none;
+                                                                right: 265px;
+                                                                top: 7px;
+                                                            }
+
+                                                            #globe2 {
+                                                                width: 37px;
+                                                                height: 36px;
+                                                                pointer-events: none;
+                                                                position: absolute;
+                                                                top: 20%;
+                                                                left: 58%;
+                                                                right: 98px;
+                                                                top: 1px;
+                                                            }
+
+                                                            select:focus {
+                                                                @ -308, 7+289, 6 @@ select:focus {
+                                                                    .carousel-container {
+                                                                        overflow-x: scroll;
+                                                                        white-space: nowrap;
+                                                                        padding-bottom: 20px;
+                                                                        /* Prevent content from touching the scrollbar */
+                                                                        position: relative;
+                                                                    }
+
+                                                                    @ -335, 16+315, 30 @@ select:focus {
+                                                                        display: inline-block;
+                                                                    }
+
+
+                                                                    .card .number {
+                                                                        position: absolute;
+                                                                        top: 5px;
+                                                                        left: 5px;
+                                                                        background-color: rgba(0, 0, 0, 0.7);
+                                                                        color: white;
+                                                                        padding: 5px 10px;
+                                                                        border-radius: 50%;
+                                                                        font-weight: bold;
+                                                                        top: -11.9rem;
+                                                                        left: 30px;
+                                                                        z-index: 4;
+                                                                        display: inline-block;
+                                                                        position: relative;
+                                                                        color: rgba(0, 0, 0, 0.8);
+                                                                        -webkit-text-stroke: 0.125rem rgb(255, 255, 255);
+                                                                        -webkit-text-stroke-width: 2px;
+                                                                        text-shadow: 0 0 1.5rem rgba(0, 0, 0, 0.5);
+                                                                        font-size: 72px;
+                                                                        font-weight: 900;
+                                                                        height: 72px;
+                                                                        line-height: 72px;
+                                                                    }
+
+                                                                    /* .card .number.ten{
+    top: -11.9rem;
+    left: 64px;
+} */
+                                                                    .card #ten {
+                                                                        right: 35px;
+                                                                        position: relative;
+                                                                    }
+
+                                                                    /* Arrows */
+                                                                    @ -356, 21+350, 25 @@ select:focus {
+                                                                        position: absolute;
+                                                                        top: 50%;
+                                                                        transform: translateY(-50%);
+                                                                        background: rgba(0, 0, 0, 0.5);
+                                                                        background: rgb(90 82 82 / 94%);
+                                                                        color: white;
+                                                                        border: none;
+                                                                        padding: 10px;
+                                                                        cursor: pointer;
+                                                                        border-radius: 50%;
+                                                                        border-radius: 16rem;
+                                                                        z-index: 2;
+                                                                        height: 5rem;
+                                                                        width: 1.5rem;
+                                                                    }
+
+                                                                    .arrow.left {
+                                                                        left: -11px;
+                                                                        left: -26px;
+
+                                                                    }
+
+                                                                    .arrow.right {
+                                                                        right: -14px;
+                                                                        right: -26px;
+
+                                                                    }
+
+                                                                    /* Make carousel scrollable with buttons using pure CSS */
+                                                                    @ -392, 4+390, 182 @@ select:focus {
+                                                                        .card img:hover {
+                                                                            transform: scale(1.1);
+                                                                            /* Slightly increased zoom */
+                                                                        }
+
+                                                                        .section-4 {
+                                                                            padding-bottom: 40px;
+                                                                            display: flex;
+                                                                            justify-content: space-between;
+                                                                            gap: 12px;
+                                                                            flex-direction: column;
+                                                                            align-items: center;
+                                                                        }
+
+                                                                        .section-4 #h1-sec4 {
+                                                                            padding-top: 12px;
+                                                                            align-self: flex-start;
+                                                                        }
+
+                                                                        .content-boxes {
+                                                                            height: 134px;
+                                                                            width: 263px;
+                                                                            position: relative;
+                                                                            padding: 14px 16px 72px 16px;
+                                                                            border-radius: 16px;
+                                                                            background: rgba(255, 255, 255, 0.1);
+                                                                            border-color: rgba(255, 255, 255, 0.04);
+                                                                            border-width: 2px;
+                                                                            border-style: solid;
+                                                                        }
+
+                                                                        .content-boxes h2 {
+                                                                            justify-content: flex-start;
+                                                                            display: flex;
+                                                                            font-family: Segoe UI Semibold;
+                                                                            font-size: 18px;
+                                                                            font-weight: 500;
+                                                                        }
+
+                                                                        .content-boxes svg {
+                                                                            position: absolute;
+                                                                            top: 78px;
+                                                                            right: 10px;
+                                                                        }
+
+                                                                        .boxes {
+                                                                            display: flex;
+                                                                            justify-content: space-between;
+                                                                            flex-direction: row;
+                                                                            gap: 12px;
+                                                                            width: 1104px;
+                                                                        }
+
+                                                                        .section-5 {
+                                                                            display: flex;
+                                                                            justify-content: space-between;
+                                                                            gap: 12px;
+                                                                            flex-direction: column;
+                                                                            margin-bottom: 40px;
+                                                                        }
+
+                                                                        .boxes2 {
+                                                                            display: flex;
+                                                                            justify-content: space-between;
+                                                                            gap: 8px;
+                                                                            flex-direction: column;
+                                                                        }
+
+                                                                        .questions {
+                                                                            display: flex;
+                                                                            justify-content: space-between;
+                                                                            border-radius: 16px;
+                                                                            background: rgba(255, 255, 255, 0.1);
+                                                                            border-color: rgba(255, 255, 255, 0.04);
+                                                                            border-width: 2px;
+                                                                            border-style: solid;
+                                                                            padding: 24px;
+                                                                            align-items: center;
+                                                                            height: 72px;
+                                                                        }
+
+                                                                        .questions h3 {
+                                                                            font-size: 18px;
+                                                                            font-weight: 500;
+                                                                            text-align: left;
+                                                                        }
+
+                                                                        .section-6 {
+                                                                            display: flex;
+                                                                            justify-content: space-between;
+                                                                            flex-direction: column;
+                                                                            gap: 8px;
+                                                                            align-items: center;
+                                                                            margin-bottom: 20px;
+                                                                        }
+
+                                                                        .section-6 button {
+                                                                            background: rgb(229, 9, 20);
+                                                                            border-radius: 100px;
+                                                                            color: rgb(255, 255, 255);
+                                                                            font-size: 16px;
+                                                                            font-weight: 500;
+                                                                            height: 40px;
+                                                                            line-height: 16px;
+                                                                            padding: 6px 32px;
+                                                                            width: 131.75px;
+                                                                            font-family: Segoe UI Semibold;
+                                                                            border: none;
+                                                                        }
+
+                                                                        .section-6 h3 {
+                                                                            color: rgb(255, 255, 255);
+                                                                            font-size: 16px;
+                                                                            font-weight: 400;
+                                                                        }
+
+                                                                        .section-7 {
+                                                                            margin-top: 24px;
+                                                                            padding-bottom: 96px;
+                                                                            display: flex;
+                                                                            justify-content: space-between;
+                                                                            flex-direction: column;
+                                                                            gap: 36px;
+                                                                        }
+
+                                                                        .section-7-frame1 p a {
+                                                                            color: rgba(255, 255, 255, 0.7);
+                                                                            margin-top: 36px;
+                                                                        }
+
+                                                                        .section-7-frame2 ul {
+                                                                            align-items: flex-start;
+                                                                            display: flex;
+                                                                            flex-direction: row;
+                                                                            flex-wrap: wrap;
+                                                                            height: 132px;
+                                                                            justify-content: flex-start;
+                                                                            width: 1108px;
+                                                                            list-style-type: none;
+                                                                        }
+
+                                                                        .section-7-frame2 a {
+                                                                            line-height: 21px;
+                                                                            color: rgba(255, 255, 255, 0.7);
+                                                                            font-size: 14px;
+                                                                            font-weight: 400;
+                                                                            width: 265px;
+                                                                            height: 21px;
+                                                                            display: flex;
+                                                                        }
+
+                                                                        .section-7-frame3 form {
+                                                                            position: relative;
+                                                                        }
+
+                                                                        .section-7-frame3 form #svg-language-sign {
+                                                                            position: absolute;
+                                                                            top: 7px;
+                                                                            right: 1076px;
+                                                                            pointer-events: none;
+                                                                        }
+
+                                                                        .section-7-frame3 form #svg-arrow-down {
+                                                                            position: absolute;
+                                                                            top: 8px;
+                                                                            right: 995px;
+                                                                            pointer-events: none;
+                                                                        }
+
+                                                                        .section-7-frame3 select {
+                                                                            background: rgba(0, 0, 0, 0);
+                                                                            border-width: 1;
+                                                                            color: rgb(255, 255, 255);
+                                                                            height: 32px;
+                                                                            font-size: 15px;
+                                                                            font-weight: 400;
+                                                                            line-height: 16px;
+                                                                            width: 121px;
+                                                                            border-radius: 40px;
+                                                                            appearance: none;
+                                                                            padding: 6px 36px 6px 34px;
+                                                                        }
