@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #000000;
+}
+
+#img1 {
+    width: 301px;
+    height: 289px;
+    position: absolute;
+    left: 45px;
+    top: 787px;
+}
+
+#img2 {
+    width: 1045px;
+    height: 1033px;
+    position: absolute;
+    left: 45px;
+    top: 42px;
+}
+
+#img3 {
+    width: 932px;
+    height: 749px;
+    position: absolute;
+    left: 323px;
+    top: 42px;
+}
+
+#img4 {
+    width: 397px;
+    height: 749px;
+    position: absolute;
+    left: 1286px;
+    top: 42px;
+}
+
+#img5 {
+    width: 562px;
+    height: 253px;
+    position: absolute;
+    left: 1121px;
+    top: 822px;
+}
+
+#img6 {
+    position: absolute;
+    width: 519px;
+    height: 1132px;
+    left: 1197px;
+    top: -16px;
+}
+
+#img7 {
+    width: 505px;
+    height: 661px;
+    position: absolute;
+    left: 361px;
+    top: 89px;
+}
+
+#img8 {
+    position: absolute;
+    top: 499px;
+    left: 385.64px;
+    width: 249px;
+    height: 246px;
+}
+
+#img9 {
+    position: absolute;
+    top: 221;
+    left: 898;
+}
+
+#img10 {
+    position: absolute;
+    top: 352.83;
+    left: 898;
+}
+
+#img11 {
+    position: absolute;
+    top: 530.4;
+    left: 898;
+}
+
+#img12 {
+    position: absolute;
+    top: 705.06;
+    left: 934;
+}
+
+#button1 {
+    width: 230px;
+    height: 55px;
+    border-radius: 16px;
+    background: #ffffff00;
+    border: 1px solid #FFFFFF;
+    position: absolute;
+    left: 898px;
+    top: 383.83px;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 83.1%;
+    letter-spacing: 1%;
+}
+
+#button2 {
+    background: #00000000;
+    width: 154px;
+    height: 58px;
+    border-radius: 16px;
+    background: #b4b4b456;
+    border: 1px solid #FFFFFF;
+    position: absolute;
+    left: 668px;
+    top: 678px;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 83.1%;
+    letter-spacing: 1%;
+}
+
+#button1:hover {
+    background: #ffffff2d;
+}
+
+#button2:hover {
+    background: #a1a1a196;
+}
